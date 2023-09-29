@@ -22,18 +22,17 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        TextBox1 = New TextBox()
+        TextNom = New TextBox()
         SaludoBoton = New Button()
         Label1 = New Label()
         SuspendLayout()
         ' 
-        ' TextBox1
+        ' TextNom
         ' 
-        TextBox1.Location = New Point(148, 82)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(100, 23)
-        TextBox1.TabIndex = 0
-        TextBox1.Text = "Britany"
+        TextNom.Location = New Point(148, 82)
+        TextNom.Name = "TextNom"
+        TextNom.Size = New Size(100, 23)
+        TextNom.TabIndex = 0
         ' 
         ' SaludoBoton
         ' 
@@ -61,14 +60,14 @@ Partial Class Form1
         ClientSize = New Size(800, 450)
         Controls.Add(Label1)
         Controls.Add(SaludoBoton)
-        Controls.Add(TextBox1)
+        Controls.Add(TextNom)
         Name = "Form1"
         Text = "Form1"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextNom As TextBox
     Friend WithEvents SaludoBoton As Button
     Friend WithEvents Label1 As Label
 End Class
